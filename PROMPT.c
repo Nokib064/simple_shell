@@ -52,7 +52,6 @@ int prompt(char **env_var)
 	size_t j = 0, b = 0;
 	int cmd_line_num = 0, exit_stat = 0, prompt_active = 1;
 	char *command, *n_command, **tokenize;
-	int prompt_active = 1;
 
 	env_list = environ_list((char *)env_var);
 	while (prompt_active)
